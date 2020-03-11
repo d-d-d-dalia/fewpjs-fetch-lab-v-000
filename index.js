@@ -3,7 +3,7 @@ function fetchBooks() {
     .then(resp =>
     resp.json())
     .then(json =>
-    console.log("hey")
+    console.log("json")
     )
 }
 
